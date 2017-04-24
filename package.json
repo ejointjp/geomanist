@@ -1,0 +1,23 @@
+{
+  "name": "geomanist",
+  "version": "0.0.1",
+  "description": "geomanist webfont",
+  "main": "null",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch geomanist.scss:geomanist.css --sourcemap=none --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejointjp/geomanist.git"
+  },
+  "keywords": [
+    "webfont"
+  ],
+  "author": "e-JOINT.jp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejointjp/geomanist/issues"
+  },
+  "homepage": "https://github.com/ejointjp/geomanist#readme"
+}
