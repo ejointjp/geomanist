@@ -1,11 +1,12 @@
 {
   "name": "geomanist",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "geomanist webfont",
   "main": "null",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass --watch geomanist.scss:geomanist.css --sourcemap=none --style expanded"
+    "start": "sass --watch geomanist.scss:geomanist.css --sourcemap=none --style expanded",
+    "build": "sass geomanist-full.scss:geomanist.css --sourcemap=none --style expanded"
   },
   "repository": {
     "type": "git",
