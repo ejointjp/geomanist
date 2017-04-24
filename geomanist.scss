@@ -13,7 +13,7 @@ $geomanist_src: (null,);
 @if $geomanist_eot_iefix {
   $geomanist_src: append($geomanist_src, url(#{$geomanist_fontpath}geomanist-regular-webfont.eot) format('embedded-opentype'));
 }
-@debug $geomanist_src;
+
 @if $geomanist_woff2 {
   $geomanist_src: append($geomanist_src, url(#{$geomanist_fontpath}geomanist-regular-webfont.woff2) format('woff2'));
 }
