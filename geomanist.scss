@@ -11,7 +11,7 @@ $geomanist_svg: false !default; // legacy iOS
 $geomanist_src: (null,);
 
 @if $geomanist_eot_iefix {
-  $geomanist_src: append($geomanist_src, url(#{$geomanist_fontpath}geomanist-regular-webfont.eot) format('embedded-opentype'));
+  $geomanist_src: append($geomanist_src, url(#{$geomanist_fontpath}geomanist-regular-webfont.eot?#iefix) format('embedded-opentype'));
 }
 
 @if $geomanist_woff2 {
